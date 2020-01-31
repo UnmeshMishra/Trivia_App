@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/quiz_finish_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You've Completed the Quiz! Woohoo ! now click on finish to store this session and start a new one"
+        android:padding="4dp"
+        android:layout_margin="12dp"
+        android:textSize="24sp"
+        android:layout_marginTop="112dp"
+        />
+
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quiz_finish_txt"
+        android:text="FINISH"
+        style="@style/ButtonGeneral"
+        />
+
+    <Button
+        android:id="@+id/history_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finish_btn"
+        android:text="HISTORY"
+        style="@style/ButtonGeneral"
+        />
+
+</RelativeLayout>

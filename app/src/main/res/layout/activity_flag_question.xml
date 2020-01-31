@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FlagQuestionActivity">
+
+    <TextView
+        android:id="@+id/flag_question_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/flag_question"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+
+    <LinearLayout
+        android:id="@+id/flag_answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/white_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/white"
+            style="@style/ButtonUnselected"
+            />
+
+        <Button
+            android:id="@+id/yellow_btn"
+            style="@style/ButtonUnselected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow" />
+
+        <Button
+            android:id="@+id/orange_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orange"
+            style="@style/ButtonUnselected"
+            />
+
+        <Button
+            android:id="@+id/green_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            style="@style/ButtonUnselected"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_btn_label"
+        style="@style/ButtonGeneral"
+        />
+
+</LinearLayout>

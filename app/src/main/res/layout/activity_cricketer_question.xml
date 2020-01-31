@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CricketerQuestionActivity">
+
+    <TextView
+        android:id="@+id/cricketer_question_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/cricketers_question"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+
+    <LinearLayout
+        android:id="@+id/cricketer_answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sachin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sachin_tendulkar"
+            style="@style/ButtonUnselected"
+            />
+
+        <Button
+            android:id="@+id/virat_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/virat_kohli"
+            style="@style/ButtonUnselected"
+            />
+
+        <Button
+            android:id="@+id/adam_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adam_gilchrist"
+            style="@style/ButtonUnselected"
+            />
+
+        <Button
+            android:id="@+id/jacques_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jacques_kallis"
+            style="@style/ButtonUnselected"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_btn_label"
+        style="@style/ButtonGeneral"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonUnselected" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_unselected</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonGeneral" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_general</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="QuizHistoryTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_margin">7dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+</resources>
